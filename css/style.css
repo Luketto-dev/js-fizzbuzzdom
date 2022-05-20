@@ -1,3 +1,7 @@
+main{
+    background-color: #083B4C;
+}
+
 .square-container{
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +11,7 @@
 
 .square{
     flex-basis: calc(100% / 7 - ((2rem / 7) * 6 ));
-    flex-grow: 0;
+    flex-shrink: 0;
     aspect-ratio: 1/1;
     display: flex;
     align-items: center;
@@ -16,3 +20,18 @@
     border: 1px solid black;
 }
 
+.bg-blue{
+    background-color: #1389B2;
+}
+
+.bg-yellow{
+    background-color: #FFD166;
+}
+
+.bg-green{
+    background-color: #0BD6A1;
+}
+
+.bg-red{
+    background-color: #F0466F;
+}
